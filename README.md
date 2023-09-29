@@ -1,2 +1,3 @@
 # Learning-R
-My personalized R learning
+My personalized R learning.  
+
