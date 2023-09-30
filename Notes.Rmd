@@ -4,3 +4,75 @@ author: "Elin Swank"
 date: "2023-09-29"
 output: html_document
 ---
+
+# Use bar charts, histograms and scatter plots to visualize data.  Looking for normality.
+
+-------------- for data types
+plot() - recognizes and adapts to most data types
+barplot() - for most simple data, categorical variables
+hist() - for quantitative, scaled, measured, interval, or ratio level variables
+scatter plots - for visualizing association between 2 quantitative variables & more...
+                  - linearity
+                  - spread
+                  - outliers
+                  - correlation
+                  
+Overlaying plots - increase information density and insight
+                  - Use add = T inside function options to superimpose on previous plot
+
+## After visualization we want precision, basic statistics                  
+summary() - returns counts for quantitative variables
+          - returns quartiles, mean, median, min, max for quantitative variables
+describe() - from the psych package
+              - for quantitative variables only
+                - returns n, mean, standard deviation, median, 10% trimmed mean, median absolute deviation, 
+                  min, max, range, skewness, kurtosis, standard error
+
+- you want to do graphical summaries first then statistical measures
+
+# Focus Analysis by selecting cases
+- separate and compare categorical variables 
+- choose ranges in categorical variables for comparison
+
+# Data Formats
+- Types of Data
+      - Numeric
+        - integer, single, double
+      - Character
+      - Logical
+      - Complex
+      - Raw
+- Structures of Data
+      - vector 
+        - 1 or more numbers in a 1 dimensional array
+        - all same data type
+      - Matrix 
+        - has row and columns (2 dimensional data)
+        - same length and data class
+      - Array 
+        - 3+ dimensional matrix
+      - Data Frame
+        - can have vectors of multiple types
+        - all same length
+      - List
+        - ordered collection of elements
+        - any class, length or structure
+
+# Coercion
+  - changing a data object from 1 type to another
+  - typeof() - returns data type
+  - BE CAREFUL
+  
+# Factors
+ - "attribute" of a vector that specifies the possible values
+      - possible values = "levels" of the factor variables
+      
+# Modeling data
+Hierarchical clustering
+  - "like with like"
+  - similarity depends on citeria
+  - k = # of groups
+  
+# Regression
+ - Use many variables to predict one variable
+
